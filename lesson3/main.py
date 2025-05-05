@@ -6,8 +6,18 @@ def twoSum(nums: list[int], target: int):
         Example:
         nums = [1,2,3]
         k = 5
+        output -> True
+
         The function returns true because 
         nums[1] + nums[2] = 5
+
+        2nd Example:
+        nums = [1,2,3]
+        k = 10
+        output -> False
+        The function will return false because
+        there is no combination of any two numbers
+        which will add up to target value 10
     """
     #your code goes here beneath this line
 
